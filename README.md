@@ -1,6 +1,10 @@
-# Static Website Hosting on AWS S3
+# s3-static-website
 
-This project demonstrates how to deploy a static website on AWS S3 using Terraform. The infrastructure is designed to host a simple static website with versioning and public access, perfect for hosting personal portfolios or simple websites.
+## Overview
+
+This project showcases the deployment of a static website on AWS S3 using Terraform. It demonstrates key cloud infrastructure skills by creating a scalable, highly available website hosted on Amazon S3 with versioning and public access enabled. The configuration automates the provisioning of S3 resources, ensuring a streamlined and efficient approach to hosting static websites, commonly used in real-world production environments.
+
+![S3 Static Website](./s3-static-website.png)
 
 ## Project Structure
 
@@ -25,7 +29,7 @@ This project demonstrates how to deploy a static website on AWS S3 using Terrafo
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/static-website-s3-terraform.git
+   git clone https://github.com/juan230500/s3-static-website.git
    ```
 
 2. **Navigate to the project directory**:
@@ -53,11 +57,3 @@ This project demonstrates how to deploy a static website on AWS S3 using Terrafo
 - AWS account with appropriate IAM permissions.
 - Terraform installed on your machine.
 - Basic knowledge of AWS S3 and Terraform.
-
-## Learning Outcome
-
-This project highlights key skills such as:
-
-- Infrastructure as Code (IaC) using Terraform.
-- AWS S3 bucket and policy configuration.
-- Static website deployment and versioning.
