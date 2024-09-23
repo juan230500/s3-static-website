@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project showcases the deployment of a static website on AWS S3 using Terraform. It demonstrates key cloud infrastructure skills by creating a scalable, highly available website hosted on Amazon S3 with versioning and public access enabled. The configuration automates the provisioning of S3 resources, ensuring a streamlined and efficient approach to hosting static websites, commonly used in real-world production environments.
+This project demonstrates how to deploy a static website using AWS S3 and Terraform. The configuration automates the creation of an S3 bucket, enables versioning, sets up a public access policy, and configures the bucket for static website hosting with a custom error page.
 
 ![S3 Static Website](./s3-static-website.png)
 
